@@ -25,7 +25,7 @@ public class Commander{
 		frame.setLocationRelativeTo(null);
 		//Makes the frame visible
 		frame.setVisible(true);
-		
+
 		//Game loop
 		while(true){
 			
