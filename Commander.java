@@ -2,10 +2,10 @@ package flying.stegosaurus;
 
 import javax.swing.JFrame;
 
-public class Commander {
+public class Commander{
 	
-	public static JFrame frame;
-	public static Artist artist;
+	private static JFrame frame;
+	private static Artist artist;
 	
 	public static void main(String[] args) throws Throwable{
 		
@@ -25,6 +25,13 @@ public class Commander {
 		frame.setLocationRelativeTo(null);
 		//Makes the frame visible
 		frame.setVisible(true);
+		
+		//Game loop
+		while(true){
+			
+			artist.repaint();
+			
+		}
 		
 	}
 	
